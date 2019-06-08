@@ -1,0 +1,404 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>Horizon Housing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href="font-awesome.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <style>
+	#abc{
+		height:100%;
+		width:100%;
+		background-repeat:no-repeat;
+	}
+	#txt{text-align:center;}
+	
+	body{
+		background-color:#ccccb3;
+	}
+	#rowpad{
+		 padding-left: 30px;
+		 padding-right: 30px;
+	}
+</style>
+  
+</head>
+
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar-shrink" role="navigation">
+		<div class="container-fluid">
+		
+      
+    
+			
+			<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				<a class="navbar-brand" href="admin.html"><strong><span class="glyphicon glyphicon-king">Admin</span></strong></a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				
+
+				<!-- <ul class="nav navbar-nav navbar-right">
+				  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+				-->
+				
+				<ul class="nav navbar-nav ">
+					<li><a class="page-scroll" href="home.html"><span class="glyphicon glyphicon-home">Home </span></a></li>
+				</ul>
+				
+				
+				<!--
+				<ul class="nav navbar-nav navbar-right">
+						
+					<li class="dropdown" id="hvcl" ><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-envelope ">Message</span></a>
+						<ul class="dropdown-menu">
+						  <li><a href="#">Inbox</a></li>
+						  <li><a href="#">Sent</a></li>
+						  <li><a href="#">View all</a></li>
+						</ul>	
+						
+					</li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+						
+					<li class="dropdown" id="hvcl" ><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-bell">Notification</span></a>
+						<ul class="dropdown-menu">
+						  <li><a href="#">notification 1</a></li>
+						  <li><a href="#">notification 2</a></li>
+						  <li><a href="#">notification 3</a></li>
+						  <li><a href="#">notification 4</a></li>
+						  <li><a href="#">notification 5</a></li>
+						</ul>	
+						
+					</li>
+				</ul>
+				
+				
+				-->
+			</div>
+			  
+		
+		</div>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+ <div class="jumbotron">
+    <h1>Services</h1>
+    <p>All the services available for members</p> 
+  </div>
+
+<div class="row" id="rowpad">
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-warning" >
+			<div class="panel-heading">
+				<div class="row">
+					
+					<div class=" text-center">
+					   <div><span class="" style="font-size:24px">water</span></div>
+					</div>
+				</div>
+			</div>
+			<a href="#">
+				<div class="panel-footer">
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<span class="pull-left">Provide service</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-down"></i></span>
+						</a>
+						<ul class="dropdown-menu">
+							  <li><a href="#"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add </button></a></li>
+							  <li><a href="#"><button type="button" class="" data-toggle="modal" data-target="#myModal2">Remove</button></a></li>
+							  
+						</ul>
+					</li>
+					<div class="clearfix"></div>
+					
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	
+	
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-primary " >
+			<div class="panel-heading">
+				<div class="row">
+					
+					<div class=" text-center">
+					   <div><span class="" style="font-size:24px">Electricity</span></div>
+					</div>
+				</div>
+			</div>
+			<a href="#">
+				<div class="panel-footer">
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="pull-left">Provide service</span>
+					<span class="pull-right"><i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<ul class="dropdown-menu">
+						  <li><a href="#"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add </button></a></li>
+						  <li><a href="#"><button type="button" class="" data-toggle="modal" data-target="#myModal2">Remove</button></a></li>
+						  
+					</ul>
+					</li>
+					<div class="clearfix"></div>
+					
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-info" >
+			<div class="panel-heading">
+				<div class="row">
+					
+					<div class=" text-center">
+					   <div><span class="" style="font-size:24px">Gas</span></div>
+					</div>
+				</div>
+			</div>
+			<a href="#">
+				<div class="panel-footer">
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="pull-left">Provide service</span>
+					<span class="pull-right"><i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<ul class="dropdown-menu">
+						  <li><a href="#"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add </button></a></li>
+						  <li><a href="#"><button type="button" class="" data-toggle="modal" data-target="#myModal2">Remove</button></a></li>
+						  
+					</ul>
+					</li>
+					<div class="clearfix"></div>
+					
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	
+	
+	
+</div>
+
+<!-- row 2 -->
+
+<div class="row" id="rowpad">
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-primary" >
+			<div class="panel-heading">
+				<div class="row">
+					
+					<div class=" text-center">
+					   <div><span class="" style="font-size:24px">Cleaner</span></div>
+					</div>
+				</div>
+			</div>
+			<a href="#">
+				<div class="panel-footer">
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="pull-left">Provide service</span>
+					<span class="pull-right"><i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<ul class="dropdown-menu">
+						  <li><a href="#"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add </button></a></li>
+						  <li><a href="#"><button type="button" class="" data-toggle="modal" data-target="#myModal2">Remove</button></a></li>
+						  
+					</ul>
+					</li>
+					<div class="clearfix"></div>
+					
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-danger" >
+			<div class="panel-heading">
+				<div class="row">
+					
+					<div class=" text-center">
+					   <div><span class="" style="font-size:24px">Maid/Work Assistant</span></div>
+					</div>
+				</div>
+			</div>
+			<a href="#">
+				<div class="panel-footer">
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="pull-left">Provide service</span>
+					<span class="pull-right"><i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<ul class="dropdown-menu">
+						  <li><a href="#"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add </button></a></li>
+						  <li><a href="#"><button type="button" class="" data-toggle="modal" data-target="#myModal2">Remove</button></a></li>
+						  
+					</ul>
+					</li>
+					<div class="clearfix"></div>
+					
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-primary" >
+			<div class="panel-heading">
+				<div class="row">
+					
+					<div class=" text-center">
+					   <div><span class="" style="font-size:24px">Telephone/Internet/Cable</span></div>
+					</div>
+				</div>
+			</div>
+			<a href="#">
+				<div class="panel-footer">
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="pull-left">Provide service</span>
+					<span class="pull-right"><i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<ul class="dropdown-menu">
+						  <li><a href="#"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add </button></a></li>
+						  <li><a href="#"><button type="button" class="" data-toggle="modal" data-target="#myModal2">Remove</button></a></li>
+						  
+					</ul>
+					</li>
+					<div class="clearfix"></div>
+					
+				</div>
+			</a>
+		</div>
+	</div>
+
+</div>
+	
+</div>
+
+
+<!-- Modal for add -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add Service</h4>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+			<div class="form-group">
+				<label for="Name">Details</label>
+				<br>
+				<textarea rows="" col="" placeholder=""></textarea>
+				
+			</div>
+			
+			<div class="form-group">
+				<label for="Name">Member ID:</label>
+				<input type="Name" class="form-control" id="Name" placeholder="memeber ID">
+			</div>
+			<div class="form-group">
+				<label for="Name">Flat ID:</label>
+				<input type="Name" class="form-control" id="Name" placeholder="flat ID">
+			</div>
+			<div class="form-group">
+				<label for="Name">Cost:</label>
+				<input type="Name" class="form-control" id="Name" placeholder="cost ammount">
+			</div>
+			<div class="form-group">
+				<label for="Name">Date: </label>
+				<input type="Name" class="form-control" id="Name" placeholder="dd/mm/yyyy">
+			</div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-info btn-lg" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal 2 for remove -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Remove</h4>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+			<div class="form-group">
+				<label for="Name">Details</label>
+				<br>
+				<textarea rows="" col="" placeholder=""></textarea>
+				
+			</div>
+			
+			<div class="form-group">
+				<label for="Name">Member ID:</label>
+				<input type="Name" class="form-control" id="Name" placeholder="memeber ID">
+			</div>
+			<div class="form-group">
+				<label for="Name">Flat ID:</label>
+				<input type="Name" class="form-control" id="Name" placeholder="flat ID">
+			</div>
+			<div class="form-group">
+				<label for="Name">Cost:</label>
+				<input type="Name" class="form-control" id="Name" placeholder="cost ammount">
+			</div>
+			<div class="form-group">
+				<label for="Name">Date: </label>
+				<input type="Name" class="form-control" id="Name" placeholder="dd/mm/yyyy">
+			</div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-info btn-lg" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+</body>

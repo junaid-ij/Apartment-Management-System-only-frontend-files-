@@ -1,0 +1,377 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>Horizon Housing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href="font-awesome.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <style>
+	#abc{
+		height:100%;
+		width:100%;
+		background-repeat:no-repeat;
+	}
+	#txt{text-align:center;}
+	
+	#rowpad{
+		 padding-left: 30px;
+		 padding-right: 30px;
+	}
+	
+	body {
+		background-color: #7a7a52;
+	}
+</style>
+  
+</head>
+
+
+<body >
+
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar-shrink" role="navigation">
+		<div class="container-fluid">
+		
+      
+    
+			
+			<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				<a class="navbar-brand" href="#"><strong><span class="glyphicon glyphicon-king">Admin</span></strong></a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				
+
+				<!-- <ul class="nav navbar-nav navbar-right">
+				  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+				-->
+				
+				<ul class="nav navbar-nav ">
+					<li><a class="page-scroll" href="home.html"><span class="glyphicon glyphicon-home">Home </span></a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+						
+					<li class="dropdown" id="hvcl" ><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-envelope ">Message</span></a>
+						<ul class="dropdown-menu">
+						<li><a href="#">Compose</a></li>
+						<li><a href="#">Inbox</a></li>
+						<li><a href="#">Sent</a></li>
+						<li><a href="#">View all</a></li>
+						</ul>	
+						
+					</li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+						
+					<li class="dropdown" id="hvcl" ><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-bell">Notification</span></a>
+						<ul class="dropdown-menu">
+						  <li><a href="#">notification 1</a></li>
+						  <li><a href="#">notification 2</a></li>
+						  <li><a href="#">notification 3</a></li>
+						  <li><a href="#">notification 4</a></li>
+						  <li><a href="#">notification 5</a></li>
+						</ul>	
+						
+					</li>
+				</ul>
+			</div>
+			  
+		
+		</div>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+
+    <div class="row" id="rowpad">
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-default" >
+				<div class="panel-heading">
+					<div class="row">
+						
+						<div class="col-xs-8 text-right">
+						   <div><span class="glyphicon glyphicon-user" style="font-size:24px">Member list</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="mem_list.html">
+					<div class="panel-footer">
+						
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+						
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="glyphicon glyphicon-wrench" style="font-size:24px">Services</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="admin_services.html">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="fa fa-money" style="font-size:24px">Accounts</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+                    
+    </div>
+	
+	
+	<!--  ROW 2 -->
+	
+	<div class="row" id="rowpad">
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-info" >
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="fa fa-bitcoin" style="font-size:24px">Biling</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-warning">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="glyphicon glyphicon-envelope" style="font-size:24px">Mailing</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel  panel-danger">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="fa fa-eye" style="font-size:24px">Security</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+                    
+    </div>
+	
+	
+	
+	
+	<!--  ROW 3 -->
+	
+	<div class="row" id="rowpad">
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-danger" >
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="glyphicon glyphicon-calendar" style="font-size:24px">Events</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="fa fa-futbol-o" style="font-size:24px">Recreation</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="glyphicon glyphicon-picture" style="font-size:24px">Gallery</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="gallery.html">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+                    
+    </div>
+	
+	
+	
+	<!--  ROW 4 -->
+	
+	<div class="row" id="rowpad">
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-primary" >
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="glyphicon glyphicon-edit" style="font-size:24px">Discussion Board</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="fa fa-retweet" style="font-size:24px">Advertisements</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		
+		<div class="col-lg-4 col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-8 text-right">
+						   <div><span class="glyphicon glyphicon-list-alt" style="font-size:24px">To-DO List</span></div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+                    
+    </div>
+
+
+
+
+
+
+
+   
+</body>
+
+
+
+</html>
